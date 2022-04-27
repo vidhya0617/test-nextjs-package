@@ -1,0 +1,35 @@
+{
+  "extends": [
+    "airbnb",
+    "airbnb/hooks",
+    "next/core-web-vitals",
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier"
+  ],
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "plugins": ["react", "react-hooks", "jsx-a11y", "import", "prettier"],
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "parserOptions": {
+    "warnOnUnsupportedTypeScriptVersion": false
+  },
+  "rules": {
+    "react/function-component-definition": "off",
+    "react/jsx-props-no-spreading": "off",
+    "react/prop-types": "off",
+    "import/no-extraneous-dependencies": "off",
+    "@typescript-eslint/no-var-requires": "off",
+    "jsx-a11y/no-noninteractive-element-interactions": "off",
+    "jsx-a11y/click-events-have-key-events": "off"
+  }
+}
