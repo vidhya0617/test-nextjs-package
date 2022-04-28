@@ -3,5 +3,6 @@ const nextConfig = {
     locales: ["en-in", "hi-in", "mr-in"],
     defaultLocale: "en-in",
   },
+  distDir: "build",
 };
 module.exports = nextConfig;

@@ -1,7 +1,6 @@
 import React from "react";
 
-import MultiLanguage from "@components/MultiLanguage";
 
-const Home = () => <MultiLanguage />;
+const Home = () => <p>home screen</p>;
 
 export default Home;

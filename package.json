@@ -1,6 +1,6 @@
 {
   "name": "test-nextjs-package-g3",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Nextjs package for g3",
   "main": "src/components/MultiLanguage.jsx",
   "module": "src/components/MultiLanguage.jsx",
